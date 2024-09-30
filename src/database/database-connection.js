@@ -26,4 +26,4 @@ app.listen(port, () => {
   console.log(`API rodando na porta ${port}`);
 });
 
-// json-server --watch db.json <- rodar db
+// json-server --watch db.json <- rodar banco de dados
