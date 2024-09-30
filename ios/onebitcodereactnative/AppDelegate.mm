@@ -2,6 +2,7 @@
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTLinkingManager.h>
+#import <RNGestureHandler/rootView.h>
 
 @implementation AppDelegate
 
