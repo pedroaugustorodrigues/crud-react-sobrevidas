@@ -68,3 +68,22 @@ $ npm start
 
 # O Expo é iniciado no PC mediante o browser e após esse processo acessar o celular e executar o Expo
 # e fazer a leitura do QRCode que é mostrado no browser pelo Expo.
+```
+
+## 🔧 Ferramentas Utilizadas
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Node.js](https://img.shields.io/badge/Node.js-%23323330.svg?style=for-the-badge&logo=node.js&logoColor=%23339933)
+![Expo](https://img.shields.io/badge/Expo-%23000000.svg?style=for-the-badge&logo=expo&logoColor=%F72B2B)
+![json-server](https://img.shields.io/badge/json--server-%23000000.svg?style=for-the-badge&logo=json&logoColor=%23FFFFFF)
+
+
+
+## 📃 Licença
+
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
