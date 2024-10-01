@@ -12,11 +12,13 @@
 
 Esta aplicação consiste em realizar o Registro de Pacientes, para gerenciar informações de forma eficiente e intuitiva. A aplicação implementa as funcionalidades básicas de um CRUD (Create, Read, Update e Delete), permitindo que os usuários realizem as seguintes operações:
 
-Create: Adicionar novos registros de pacientes, incluindo informações como nome, data de nascimento, sexo, endereço.
-Read: Visualizar a lista de pacientes cadastrados, com a possibilidade de consultar detalhes de cada registro individualmente.
-Update: Editar informações de pacientes já registrados, garantindo que os dados estejam sempre atualizados.
-Delete: Remover registros de pacientes que não são mais necessários, mantendo a base de dados limpa.
-A aplicação utiliza o json-server para simular uma API RESTful. Com o json-server, os dados são armazenados em um arquivo JSON, permitindo operações de CRUD de maneira simples, sem a necessidade de um banco de dados.
+<ul>
+<li><strong>Create</strong>: Adicionar novos registros de pacientes, incluindo informações como nome, data de nascimento, sexo, endereço.
+<li><strong>Read</strong>: Visualizar a lista de pacientes cadastrados, com a possibilidade de consultar detalhes de cada registro individualmente.
+<li><strong>Update</strong>: Editar informações de pacientes já registrados, garantindo que os dados estejam sempre atualizados.
+<li><strong>Delete</strong>: Remover registros de pacientes que não são mais necessários, mantendo a base de dados limpa.
+<li>A aplicação utiliza o <strong>json-server</strong> para simular uma API RESTful. Com o json-server, os dados são armazenados em um arquivo JSON, permitindo operações de CRUD de maneira simples, sem a necessidade de um banco de dados.
+</ul>
 
 ## 🛠️ Construído com
 
