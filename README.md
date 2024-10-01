@@ -27,7 +27,7 @@ Esta aplicação consiste em realizar o Registro de Pacientes, para gerenciar in
 * [React Native](https://reactnative.dev/) - O framework Mobile usado
 * [Expo](https://expo.io/) - Facilitador de visualização
 
-### Dependências
+### 📋 Dependências
 
 - expo/metro-runtime
 - @react-native-community/masked-view
