@@ -59,20 +59,22 @@ Esta aplicação consiste em realizar o Registro de Pacientes, para gerenciar in
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/pedroaugustorodrigues/crud-react-sobrevidas.git
+ git clone https://github.com/pedroaugustorodrigues/crud-react-sobrevidas.git
 
 # Acesse a pasta do Projeto
-$ cd crud-react-sobrevidas
+ cd crud-react-sobrevidas
 
 # Baixar as dependências
-$ yarn install
+ yarn install
 ou
-$ npm install
+ npm install
 
 # Execute o comando
-$ yarn start
+ yarn start
 ou
-$ npm start
+ npm start
+ou
+npx expo start
 
 # O Expo é iniciado no PC mediante o browser e após esse processo acessar o celular e executar o Expo
 # e fazer a leitura do QRCode que é mostrado no browser pelo Expo.
