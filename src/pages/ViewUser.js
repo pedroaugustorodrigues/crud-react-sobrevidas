@@ -20,11 +20,11 @@ const ViewUser = () => {
       if (response.data) {
         setUserData(response.data);
       } else {
-        Alert.alert('Usuário não encontrado!');
+        Alert.alert('Paciente não encontrado!');
       }
     } catch (error) {
-      console.error('Erro ao buscar usuário:', error);
-      Alert.alert('Erro', 'Usuário não encontrado!');
+      console.error('Erro ao buscar paciente:', error);
+      Alert.alert('Erro', 'Paciente não encontrado!');
     }
   };
 
@@ -32,18 +32,30 @@ const ViewUser = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex: 1, backgroundColor: 'white' }}>
         <View style={{ flex: 1 }}>
-          <Mytext text="Filtro de Usuário" />
+          <Mytext text="Filtro de Paciente" />
           <Mytextinput
-            placeholder="Entre com o Código do Usuário"
+            placeholder="Entre com o Código do Paciente"
             onChangeText={setInputUserId}
             style={{ padding: 10 }}
           />
-          <Mybutton title="Buscar Usuário" customClick={searchUser} />
+          <Mybutton title="Buscar Paciente" customClick={searchUser} />
           <View style={{ marginLeft: 35, marginRight: 35, marginTop: 10 }}>
             <Text>Código: {userData.id}</Text>
             <Text>Nome: {userData.name}</Text>
-            <Text>Telefone: {userData.contact}</Text> {/* Corrigido para 'contact' */}
-            <Text>Endereço: {userData.address}</Text>
+            <Text>CPF: {userData.cpf}</Text>
+            <Text>Data de Nascimento: {userData.date}</Text>
+            <Text>Nome da Mãe: {userData.nameMother}</Text>
+            <Text>Sexo: {userData.gender}</Text>
+            <Text>Cartão do Sus: {userData.sus}</Text>
+            <Text>Telefone 1: {userData.contact1}</Text>
+            <Text>Telefone 1: {userData.contact2}</Text>
+            <Text>Email: {userData.email}</Text>
+            <Text>CEP: {userData.cep}</Text>
+            <Text>Bairro: {userData.burgh}</Text>
+            <Text>Logradouro: {userData.street}</Text>
+            <Text>Complemento: {userData.complement}</Text>
+            <Text>Número: {userData.number}</Text>
+            
           </View>
         </View>
       </View>

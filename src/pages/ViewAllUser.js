@@ -15,7 +15,7 @@ const ViewAllUser = () => {
         const response = await axios.get(API_URL);
         setFlatListItems(response.data);
       } catch (error) {
-        console.error('Erro ao buscar usuários:', error);
+        console.error('Erro ao buscar pacientes:', error);
       } finally {
         setLoading(false);
       }
@@ -44,14 +44,37 @@ const ViewAllUser = () => {
         <Text style={styles.textheader}>Nome da Mãe</Text>
         <Text style={styles.textbottom}>{item.nameMother}</Text>
 
+        <Text style={styles.textheader}>Sexo</Text>
+        <Text style={styles.textbottom}>{item.gender}</Text>
+
         <Text style={styles.textheader}>Cartão do Sus</Text>
         <Text style={styles.textbottom}>{item.sus}</Text>   
 
-        <Text style={styles.textheader}>Contato</Text>
-        <Text style={styles.textbottom}>{item.contact}</Text> 
+        <Text style={styles.textheader}>Telefone 1</Text>
+        <Text style={styles.textbottom}>{item.contact1}</Text>
 
-        <Text style={styles.textheader}>Endereço</Text>
-        <Text style={styles.textbottom}>{item.address}</Text> 
+        <Text style={styles.textheader}>Telefone 2</Text>
+        <Text style={styles.textbottom}>{item.contact2}</Text> 
+
+        <Text style={styles.textheader}>Email</Text>
+        <Text style={styles.textbottom}>{item.email}</Text>
+
+        <Text style={styles.textheader}>CEP</Text>
+        <Text style={styles.textbottom}>{item.cep}</Text>
+
+        <Text style={styles.textheader}>Bairro</Text>
+        <Text style={styles.textbottom}>{item.burgh}</Text>
+
+        <Text style={styles.textheader}>Logradouro</Text>
+        <Text style={styles.textbottom}>{item.street}</Text>
+
+        <Text style={styles.textheader}>Complemento</Text>
+        <Text style={styles.textbottom}>{item.complement}</Text>
+
+        <Text style={styles.textheader}>Número</Text>
+        <Text style={styles.textbottom}>{item.number}</Text>
+
+
       </View>
     );
   };
@@ -68,7 +91,7 @@ const ViewAllUser = () => {
           contentContainerStyle={{ paddingHorizontal: 20 }}
           data={flatListItems}
           keyExtractor={(item) => item.id.toString()} // Chave correta
-          renderItem={listItemView} // Removido o destructuring
+          renderItem={listItemView}
         />
       </ScrollView>
     </SafeAreaView>

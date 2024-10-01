@@ -22,7 +22,7 @@ const App = () => {
           name="HomeScreen"
           component={HomeScreen}
           options={{
-            title: 'Registro de Usuários',
+            title: 'Registro de Pacientes',
             headerStyle: {
               backgroundColor: '#00AD98',
             },
@@ -36,7 +36,7 @@ const App = () => {
           name="Register"
           component={RegisterUser}
           options={{
-            title: 'Cadastrar Usuário',
+            title: 'Cadastrar Paciente',
             headerStyle: {
               backgroundColor: '#2992C4',
             },
@@ -50,7 +50,7 @@ const App = () => {
           name="Update"
           component={UpdateUser}
           options={{
-            title: 'Atualizar Usuário',
+            title: 'Atualizar Paciente',
             headerStyle: {
               backgroundColor: '#A45BB9',
             },
@@ -64,7 +64,7 @@ const App = () => {
           name="View"
           component={ViewUser}
           options={{
-            title: 'Visualizar Usuário',
+            title: 'Visualizar Paciente',
             headerStyle: {
               backgroundColor: '#F9AD29',
             },
@@ -78,7 +78,7 @@ const App = () => {
           name="ViewAll"
           component={ViewAllUser}
           options={{
-            title: 'Visualizar Todos os Usuários',
+            title: 'Visualizar todos os Pacientes',
             headerStyle: {
               backgroundColor: '#384F62',
             },
@@ -92,7 +92,7 @@ const App = () => {
           name="Delete"
           component={DeleteUser}
           options={{
-            title: 'Excluir Usuário',
+            title: 'Excluir Paciente',
             headerStyle: {
               backgroundColor: '#D1503A',
             },

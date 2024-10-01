@@ -26,38 +26,40 @@ const HomeScreen = ({ navigation }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex: 1, backgroundColor: 'white' }}>
         <View style={{ flex: 1 }}>
+          
           <MyImageButton
-            title="Registrar Usuário"
+            title="Registrar Paciente"
             btnColor='#2992C4'
             btnIcon="user-plus"
             customClick={() => navigation.navigate('Register')}
           />
           <MyImageButton
-            title="Atualizar Usuário"
+            title="Atualizar Paciente"
             btnColor='#A45BB9'
             btnIcon="user-circle"
             customClick={() => navigation.navigate('Update')}
           />
           <MyImageButton
-            title="Visualizar Usuário"
+            title="Visualizar Paciente"
             btnColor='#F9AD29'
             btnIcon="user"
             customClick={() => navigation.navigate('View')}
           />
           <MyImageButton
-            title="Visualizar Todos"
+            title="Visualizar todos os Pacientes"
             btnColor='#384F62'
             btnIcon="users"
             customClick={() => navigation.navigate('ViewAll')}
           />
           <MyImageButton
-            title="Excluir Usuário"
+            title="Excluir Paciente"
             btnColor='#D1503A'
             btnIcon="user-times"
             customClick={() => navigation.navigate('Delete')}
           />
         </View>
       </View>
+
     </SafeAreaView>
   );
 };
