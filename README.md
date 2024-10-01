@@ -79,7 +79,7 @@ $ npm start
 ![Node.js](https://img.shields.io/badge/Node.js-%23323330.svg?style=for-the-badge&logo=node.js&logoColor=%23339933)
 ![Expo](https://img.shields.io/badge/Expo-%23000000.svg?style=for-the-badge&logo=expo&logoColor=%F72B2B)
 ![json-server](https://img.shields.io/badge/json--server-%23000000.svg?style=for-the-badge&logo=json&logoColor=%23FFFFFF)
-
+![npm](https://img.shields.io/badge/npm-%23000000.svg?style=for-the-badge&logo=npm&logoColor=%CB3837)
 
 
 ## 📃 Licença
