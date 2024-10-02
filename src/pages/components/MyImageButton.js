@@ -24,9 +24,11 @@ const styles = StyleSheet.create({
   button: {
     alignItems: 'center',
     color: '#ffffff',
+    width: '30%',
+    textAlign: 'center',
     padding: 10,
     marginTop: 16,
-    marginLeft: 35,
+    marginLeft: '33.33%',
     marginRight: 35,
     borderRadius: 5,
   },
