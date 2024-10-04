@@ -69,6 +69,12 @@ Esta aplicação consiste em realizar o Registro de Pacientes, para gerenciar in
 ou
  npm install
 
+# Para rodar mobile
+  Necessário alterar endpoint (localhost) no database
+
+# Executar Banco de Dados
+  json-server --watch db.json
+
 # Execute o comando
  yarn start
 ou
