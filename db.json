@@ -2,6 +2,11 @@
   "pacientes": [
     {
       "id": "1",
+      "cpf": "999.999.999-99",
+      "date": "01/02/1970",
+      "nameMother": "Mariana Oliveira",
+      "gender": "Feminino",
+      "sus": "999999999999999",
       "name": "Maria Oliveira",
       "contact1": "987654321",
       "contact2": "987654321",

@@ -74,7 +74,6 @@ const ViewAllUser = () => {
         <Text style={styles.textheader}>Número</Text>
         <Text style={styles.textbottom}>{item.number}</Text>
 
-
       </View>
     );
   };
